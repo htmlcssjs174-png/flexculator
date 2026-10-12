@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <!-- Plain dark Android 12 launch screen -->
+        <item name="android:windowSplashScreenBackground">#05070B</item>
+
+        <!-- Transparent launch icon -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/transparent_splash_icon</item>
+
+        <!-- Same dark color behind the transparent icon -->
+        <item name="android:windowSplashScreenIconBackgroundColor">#05070B</item>
+    </style>
+
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">#05070B</item>
+    </style>
+
+</resources>
